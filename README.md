@@ -16,16 +16,16 @@ Object Detection과 Segmentation에 관한 논문을 공부하고 이를 재구�
 ![image](https://github.com/andless2004/aiku-24-1-juniors_wild_escape/assets/129763673/afbe7030-a6f4-4d1d-9dd8-9bef91095c1f)
 차량 관점에서 사진이 주어졌을 때 이를 13개의 label(사람, 인도, 차도, 나무, 벽, 신호등 등)으로 구분하는 semantic segmetation model을 구현해야 합니다.
 
-###U-Net
+### U-Net
 - U-Net 논문 리뷰 이후 프로젝트 팀원들과 피드백을 주고 받았습니다.
 - AIKUTHON의 RLE encoding data를 사용하는 U-Net을 구현했습니다.
 
-###Faster R-CNN
+### Faster R-CNN
 - Faster R-CNN 논문 리뷰 이후 프로젝트 팀원들과 피드백을 주고 받았습니다.
 - R-CNN은 Object Detection task이기에 AIKUTHON data는 부적합합니다.
 - 때문에, Kaggle의 'Cityscapes Image Pairs' 데이터셋을 활용하여 구현했습니다.
 
-###SegFormer
+### SegFormer
 - SegFormer 논문 리뷰 이후 프로젝트 팀원들과 피드백을 주고 받았습니다.
 - 일반적인 상황에서 U-Net과 SegFormer의 성능을 비교하고, SegFormer의 성능을 높이기 위한 Hyperparameter tuning과 Data Augmentation 등의 기법을 활용했니다.
 
