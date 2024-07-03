@@ -47,7 +47,8 @@ drive_dir을 지정한 후 학습을 진행할 수 있습니다.
 
 ## 예시 결과
 
-![image](https://github.com/andless2004/aiku-24-1-juniors_wild_escape/assets/129763673/bacab9dc-0a1a-4a77-a118-7088dcdaec4e)
+<img width="256" alt="test" src="https://github.com/andless2004/aiku-24-1-juniors_wild_escape/assets/129763673/2607b8d1-c594-444f-9c44-320fa3b394d6">
+
 Cityscapes Image Pairs Data를 통해 학습한 model의 결과.
 대체로 잘 나타내나 일부 작은 사물; 얇은 표지판 기둥, 하늘의 신호등 등을 잘 잡아내지는 못하여 성능 개선이 필요합니다.
 
